@@ -1,0 +1,30 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#game {
+	display: inline-block;
+	padding: 15px;
+	background-color: #C6C6C6;
+	border-radius: 5px;
+}
+
+.col {
+	width: 80px;
+	height: 80px;
+	margin: 5px;
+	background-color: #E9D2D2;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+	font-weight: bolder;
+}
+
+.row {
+	display: flex;
+}
